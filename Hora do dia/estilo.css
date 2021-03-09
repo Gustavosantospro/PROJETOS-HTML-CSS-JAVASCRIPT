@@ -1,0 +1,32 @@
+body{
+    background: rgb(216, 34, 34);
+    font: normal 15pt Arial;
+    color: rgb(0, 0, 0);
+
+    
+}
+
+header{
+    color: black;
+    text-align: center;
+}
+
+section{
+    background: rgba(248, 249, 253, 0.938);
+    width: 300px;
+    padding: 15px;
+    height: 300px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.808);
+
+
+
+}
+
+footer{
+    text-align: center;
+    font-style: oblique;
+    font-size: 13px;
+    color: black;
+}
