@@ -1,0 +1,13 @@
+function fatorial(n){
+    for(var i=n; i=>1;i--){
+        var soma =0
+        var fat = n*(n-1)
+        soma = soma + fat
+        }
+        return soma
+
+}
+
+var a = fatorial(4)
+
+console.log(a)

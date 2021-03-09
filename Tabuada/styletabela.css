@@ -1,0 +1,25 @@
+header{
+    text-align: center;
+}
+
+section{
+    background: rgb(115, 115, 187);
+    width:500px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 15px;
+
+}
+
+body{
+    background:rgb(138, 138, 233);
+
+}
+
+footer{
+    text-align: center;
+}
+
+select#seltab{
+    width:100px;
+}
