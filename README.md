@@ -8,7 +8,7 @@ O objetivo é gerar uma imagem representativa da idade e genero, e acima dela ha
 Haverá uma imagem para idade de criança(até 20 anos), adulto(até 50 anos) e idoso(acima de 50 anos).
 
 - Projeto Hora do Dia:
-Neste o objetivo é que aparaça a hora do dia, correspondente à hora do sistema operacional e uma imagem correspondente do horário:
+Neste, o objetivo é que aparaça a hora do dia, correspondente à hora do sistema operacional e uma imagem correspondente do horário:
 por exemplo, se manhã, aparecerá uma imagem representativa da manhã e a hora.
 
 
