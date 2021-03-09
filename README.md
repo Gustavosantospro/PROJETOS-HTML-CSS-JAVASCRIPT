@@ -11,5 +11,9 @@ Haverá uma imagem para idade de criança(até 20 anos), adulto(até 50 anos) e 
 Neste, o objetivo é que aparaça a hora do dia, correspondente à hora do sistema operacional e uma imagem correspondente do horário:
 por exemplo, se manhã, aparecerá uma imagem representativa da manhã e a hora.
 
+- Tabuada de Multiplicar:
+Digite um número e veja sua tabuada.
 
+- Análise númerica:
+Digite número e veja suas possíveis relações.
 
