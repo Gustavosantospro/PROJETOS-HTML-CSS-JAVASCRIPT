@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="verficadoridade.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+
+    <section>
+        <div>
+           <p> Em que ano você nasceu:
+            <input type="number" name="ano" id="ano">
+           </p>
+        </div>
+        <div>
+            <p>Sexo:
+            <input type="radio" name="sex" id="mas" checked > 
+            <label for="masc">Masculino</label>
+            <input type="radio" name="sex" id="fem">
+            <label for="fem">Feminino</label>
+            <input type="button" value="Verificar" id="verificar" onclick= "verificar()">
+            </p>
+        </div> 
+        <div id="res">preencha os dados acima para ver o resultado!</div> 
+        
+    </section>
+
+    <footer>
+        <p>&copy;Gustavo CO.</p>
+    </footer>
+    <script src="napratica02.js"></script>
+</body>
+</html>
