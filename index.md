@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="verficadoridade.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
 
-You can use the [editor on GitHub](https://github.com/Gustavosantospro/PROJETOS-HTML-CSS-JAVASCRIPT/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+    <section>
+        <div>
+           <p> Em que ano você nasceu:
+            <input type="number" name="ano" id="ano">
+           </p>
+        </div>
+        <div>
+            <p>Sexo:
+            <input type="radio" name="sex" id="mas" checked > 
+            <label for="masc">Masculino</label>
+            <input type="radio" name="sex" id="fem">
+            <label for="fem">Feminino</label>
+            <input type="button" value="Verificar" id="verificar" onclick= "verificar()">
+            </p>
+        </div> 
+        <div id="res">preencha os dados acima para ver o resultado!</div> 
+        
+    </section>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Gustavosantospro/PROJETOS-HTML-CSS-JAVASCRIPT/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    <footer>
+        <p>&copy;Gustavo CO.</p>
+    </footer>
+    <script src="napratica02.js"></script>
+</body>
+</html>
