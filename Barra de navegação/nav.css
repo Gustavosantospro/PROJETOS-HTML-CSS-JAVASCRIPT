@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color:#5D4954;
+}
+.logo
+{
+    color: white;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+}
+
+.links
+{
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    text-decoration: none;
+}
+.links li
+{
+    list-style: none; /*tira os pontos da tag a*/
+}
+.links a
+{
+    text-decoration: none; /*tira o sublinhamento da tag a*/
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+
+div.burger div
+{
+    width: 25px;
+    height: 2px;
+    margin: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+@media screen and (max-width: 1024px) /*aqui trabalha a responsividade*/
+{
+    .links
+    {
+        width: 60%;
+    }
+}
+
+
+@media screen and (max-width: 768px)
+{
+    body 
+    {overflow: hidden;}
+    .links
+    {
+        position: absolute;
+        right: 0px;
+        height: 92vh; /*aqui os links somem(pq?)*/
+        top: 8vh;
+        background-color: #5D4954;
+        width: 30%;
+        flex-direction: column;
+        align-items: center;
+        background-color: #FF0000;
+        
+        transform: translateX(100%);/*quando vai a 0 aparece*/
+        transition: transform 0.5s ease-in; /*q=na transição, não aparece de supetão*/
+    }
+    .links li
+    {
+        opacity: 0;
+    }
+    .burger
+    {
+        display: block;
+    }
+    .nav-active
+    {
+        transform: translateX(0%);
+    }
+    
+}
